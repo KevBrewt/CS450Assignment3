@@ -20,5 +20,6 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
-#define SYS_usermem  22
+#define SYS_count  22
+#define SYS_usermem  23
 //This file contains symbolic definitions of system call numbers. You need to define a unique number for your system call. Be sure that the numbers are consecutive. That is, there are no missing number in the sequence. These numbers are indices into a table of pointers defined in syscall.c (see next item).
