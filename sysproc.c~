@@ -92,14 +92,7 @@ sys_uptime(void)
 }
 
 int
-sys_count(void)
-{
-  return 0;
-}
-
-int
 sys_usermem(void)
 {
-  cprintf("USER MEMORY CALL ACTIVATED\nPLEASE REMAIN CALM\nSize of current process memory: %d", proc->sz);
   return 0;
 }
