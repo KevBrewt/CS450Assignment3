@@ -100,6 +100,8 @@ sys_count(void)
 int
 sys_usermem(void)
 {
-  cprintf("USER MEMORY CALL ACTIVATED\nPLEASE REMAIN CALM\nSize of current process memory: %d", proc->sz);
+  cprintf("USER MEMORY CALL ACTIVATED\nPLEASE REMAIN CALM\nSize of current process memory: %d\n", proc->sz);
+  int pages = (proc->sz / 4096);
+  cprintf("Number of pages = %d\n", pages);
   return 0;
 }
